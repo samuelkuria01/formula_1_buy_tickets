@@ -1,0 +1,2 @@
+class RaceParticipantsController < ApplicationController
+end

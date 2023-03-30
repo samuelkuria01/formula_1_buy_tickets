@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  country: MyString
+  car: MyString
+  points: 1
+  world_championship: 1
+
+two:
+  name: MyString
+  country: MyString
+  car: MyString
+  points: 1
+  world_championship: 1

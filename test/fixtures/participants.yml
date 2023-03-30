@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  car: MyString
+  position: 1
+  laps: 1
+
+two:
+  name: MyString
+  car: MyString
+  position: 1
+  laps: 1
