@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_04_02_144617) do
+ActiveRecord::Schema[7.0].define(version: 2023_04_03_072404) do
   create_table "drivers", force: :cascade do |t|
     t.string "name"
     t.string "country"
@@ -44,6 +44,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_02_144617) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "location"
+    t.string "image"
   end
 
   create_table "team_drivers", force: :cascade do |t|

@@ -6,21 +6,23 @@ class SessionsController < ApplicationController
         render json: { session: session, cookies: cookies.to_hash }
       end
 
-    def create
-        user = User
-        .find_by(email: params["user"]["email"])
-        .try(:authenticate, params["user"]["password"])
-
-        if user 
-            session[:user_id] = user.id
-            render json: user, status: :created, logged_in: :true, user: user
+      def create
+        user = User.find_by(email: params[:session][:email].downcase)
+        if user && user.authenticate(params[:session][:password])
+          session[:user_id] = user.id
+          flash[:notice] = "Logged in successfully."
+          redirect_to user
         else
-            render json: {error: "User not found"},status: :not_found
+          flash.now[:alert] = "There was something wrong with your login details."
+          render 'new'
         end
-    end
-
-    def destroy
-        session.delete :user_id
-        head :no_content
+      end
+       
+      def destroy
+        if session[:user_id] = nil
+        flash[:notice] = "You have been logged out."
+        else
+        redirect_to root_path
+        end
       end
 end

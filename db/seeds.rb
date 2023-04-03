@@ -181,16 +181,52 @@ races = [
     {
         "name":"Bahrain circuit",
         "location":"Sakhir",
+        "image":"https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/97-f1-2021-season-circuit-guide-portugal.jpg",
         "date":"03 - 05 Mar 2023"
     },
     {
         "name":"Jeddah Corniche Circuit",
         "location":"Saudi Arabia",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuHKPiulNibWa1P7ijDp_71PKxVI_39uQbSOWCyMav2F2F4lakR20zAlPfQy3XT99j3ZM&usqp=CAU",
         "date":"17 - 19 Mar 2023"
     },
     {
-        "name":"Albert Park circuit",
-        "location":"Australia",
+        "name":"Azerbaijan Grand Prix",
+        "location":"Baku City Circuit",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdZXc_usrS_RblmoxgYI97BOAHdThty6Uk65GBVaI_VIbJjuwdesatD2S4_laZhyv_l-M&usqp=CAU",
+        "date":"27 - 29 Feb 2023"
+    },
+    {
+        "name":"Miami Grand Prix",
+        "location":"Miami interntionl stadium",
+        "image":"https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/81-f1-2021-season-circuit-guide-mexico.jpg",
+
+        "date":"27 - 29 Feb 2023"
+    },  {
+        "name":"Emilia Romagna Grand Prix",
+        "location":"Autodromo Enzo ",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuVxsaBeWVGZlPejzTwYFzvagnIJnAmW76-w&usqp=CAU",
+
+        "date":"27 - 29 Feb 2023"
+    },  
+    {
+        "name":"Monaco Grand Prix",
+        "location":"Monaco",
+                "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhQ1b3EhXOqqnT6N_ilkT2CgXmOqzoxVfg4zZ_IKUa-wDEk2t6cRtJ1JPMz6E2xkynIbs&usqp=CAU",
+
+        "date":"27 - 29 Feb 2023"
+    },
+    {
+        "name":"Spanish Grand Prix",
+        "location":"Circuit De Barcelona",
+        "image":"https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/f1_tracks_azerbaijan.jpg?itok=GQu1FPpm",
+        "date":"27 - 29 Feb 2023"
+
+    },
+    {
+        "name":"Canadian Grand Prix",
+        "location":"Gilles Villenueve",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYPrHPWBr5YGdxYMJW7ZzbUNUmbAy02H3eSx0zZo3vlqRffqzzXRV7huhr-GGaNZCmP5I&usqp=CAU",
         "date":"27 - 29 Feb 2023"
     },
 ]
