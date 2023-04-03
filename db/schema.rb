@@ -16,7 +16,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_02_144617) do
     t.string "country"
     t.string "car"
     t.integer "points"
-    t.integer "world_championship"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "world_championships"
@@ -49,8 +48,10 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_02_144617) do
 
   create_table "team_drivers", force: :cascade do |t|
     t.integer "team_id"
+    t.integer "race_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "racer_id"
     t.integer "driver_id"
   end
 
