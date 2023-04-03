@@ -6,12 +6,12 @@ Rails.application.routes.draw do
     resources :participants, only: [:index,:show,:create]
     resources :races, only: [:index,:show,:create]
     resource :registrtions, only: [:create]
-    get '/me' => 'users#index'
+    get '/users', to:'users#index'
+    post '/signup', to: 'user#create'
     get "signup", to: "users#new"
     get "/sessions", to: "sessions#index"
     post "/login", to: "sessions#new"
     post "/login", to: "sessions#create"
-    post '/users' => 'user#create'
     delete "/logout", to: "sessions#destroy"
 
  
